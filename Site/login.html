@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    
+    body {
+
+      background-image: url(https://i.pinimg.com/originals/71/44/ee/7144ee4df393d26403b5fa69b3e6304e.jpg);
+     background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      margin: 0; /* Alterado para 0 para remover margens */
+    }
+
+
+
+    body {
+      
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      margin: 3;
+    }  
+
+    .menu {
+      background-color: #480b5a;
+      width: 100%;
+    }
+
+    .menu ul {
+      list-style-type: none;
+      padding: 10;
+      margin: 100;
+      display: flex;
+      justify-content: center;
+    }
+
+    .menu li {
+      margin: 0 20px;
+    }
+
+    .menu a {
+      color: #fdfcfc;
+      text-decoration: none;
+      padding: 19px 20px;
+      transition: background-color 0.3s;
+    }
+
+    .menu a:hover {
+      background-color: #09b8af;
+    }
+
+    .login-container {
+      background-color: #7b4ba5;
+      padding: 70px;
+      border-radius: 70px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ffffff;
+    }
+
+    label {
+      color: #ffffff;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 95%;
+      padding: 13px;
+      margin: 100px 10;
+      border: none;
+      border-radius: 50px;
+    }
+
+    button {
+      background-color: #a05b9c;
+      color: #e7eeec;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: hsl(264, 52%, 16%);
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <ul>
+      <li><a href="Site/pg principal.html">Página Inicial</a></li>
+      <li><a href="http://127.0.0.1:5500/h/login.html">Login</a></li>
+      <li><a href="#">Meu par</a></li>
+      <li><a href="#">Perfil</a></li>
+      <li><a href="#">Festinha</a></li>
+      <li><a href="#">Mensagens</a></li>
+      <li><a href="#">Notificações</a></li>
+      <li><a href="#">Configurações</a></li>
+      <li><a href="#">Sair</a></li>
+    </ul>
+  </div>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form action="processar_login.php" method="POST">
+      <label for="username">Nome de usuário:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Entrar</button>
+
+        <button type="button">Não tenho cadastro</button>
+        
+    
+      </form>
+  </div>
+</body>
+</html>
