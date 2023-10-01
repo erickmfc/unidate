@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      margin: 3;
+    }
+
+    .menu {
+      background-color: #544664;
+      width: 100%;
+    }
+
+    .menu ul {
+      list-style-type: none;
+      padding: 10;
+      margin: 100;
+      display: flex;
+      justify-content: center;
+    }
+
+    .menu li {
+      margin: 0 20px;
+    }
+
+    .menu a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+    }
+
+    .menu a:hover {
+      background-color: #c3c98f;
+    }
+
+    .login-container {
+      background-color: #ad87cf;
+      padding: 100px;
+      border-radius: 25px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ffffff;
+    }
+
+    label {
+      color: #ffffff;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: none;
+      border-radius: 3px;
+    }
+
+    button {
+      background-color: #bc8cca;
+      color: #fcf1f1;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: hsl(264, 52%, 16%);
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <ul>
+      <li><a href="http://127.0.0.1:5500/h/pg%20principal.html">Página Inicial</a></li>
+      <li><a href="http://127.0.0.1:5500/h/login.html">Login</a></li>
+      <li><a href="#">Cadastre-se</a></li>
+      <li><a href="#">Perfil</a></li>
+      <li><a href="#">Pesquisa</a></li>
+      <li><a href="#">Mensagens</a></li>
+      <li><a href="#">Notificações</a></li>
+      <li><a href="#">Configurações</a></li>
+      <li><a href="#">Sair</a></li>
+    </ul>
+  </div>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form action="processar_login.php" method="POST">
+      <label for="username">Nome de usuário:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</body>
+</html>
