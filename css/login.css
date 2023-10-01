@@ -1,75 +1,91 @@
 @charset "UTF-8";
 
 body {
-    background-color: #f0f0f0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    margin: 3;
-  }
 
-  .menu {
-    background-color: #544664;
-    width: 100%;
-  }
+  background-image: url(https://i.pinimg.com/originals/71/44/ee/7144ee4df393d26403b5fa69b3e6304e.jpg);
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0; /* Alterado para 0 para remover margens */
+}
 
-  .menu ul {
-    list-style-type: none;
-    padding: 10;
-    margin: 100;
-    display: flex;
-    justify-content: center;
-  }
 
-  .menu li {
-    margin: 0 20px;
-  }
 
-  .menu a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
-  }
+body {
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 3;
+}  
 
-  .menu a:hover {
-    background-color: #c3c98f;
-  }
+.menu {
+  background-color: #480b5a;
+  width: 100%;
+}
 
-  .login-container {
-    background-color: #ad87cf;
-    padding: 100px;
-    border-radius: 25px;
-    text-align: center;
-  }
+.menu ul {
+  list-style-type: none;
+  padding: 10;
+  margin: 100;
+  display: flex;
+  justify-content: center;
+}
 
-  h1 {
-    color: #ffffff;
-  }
+.menu li {
+  margin: 0 20px;
+}
 
-  label {
-    color: #ffffff;
-  }
+.menu a {
+  color: #fdfcfc;
+  text-decoration: none;
+  padding: 19px 20px;
+  transition: background-color 0.3s;
+}
 
-  input[type="text"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: none;
-    border-radius: 3px;
-  }
+.menu a:hover {
+  background-color: #09b8af;
+}
 
-  button {
-    background-color: #bc8cca;
-    color: #fcf1f1;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
+.login-container {
+  background-color: #7b4ba5;
+  padding: 70px;
+  border-radius: 70px;
+  text-align: center;
+}
 
-  button:hover {
-    background-color: hsl(264, 52%, 16%);
-  }
+h1 {
+  color: #ffffff;
+}
+
+label {
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 13px;
+  margin: 100px 10;
+  border: none;
+  border-radius: 50px;
+}
+
+button {
+  background-color: #a05b9c;
+  color: #e7eeec;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(264, 52%, 16%);
+}
