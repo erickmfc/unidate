@@ -1,37 +1,96 @@
 @charset "UTF-8";
 
 body {
+<<<<<<< HEAD
     background-color: rgb(247, 243, 246);
     font-family: Arial, sans-serif;
   }
+=======
+>>>>>>> 20419bb9484903157754e81ea23ab5af3a39e82d
 
-  .menu {
-    background-color: #544664;
-    overflow: hidden;
-  }
+  background-image: url(https://scontent.fcfb2-1.fna.fbcdn.net/v/t39.30808-6/386079256_282891731221559_5122531264609446207_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=49d041&_nc_ohc=F12gT8FhTVsAX9mnjsd&_nc_ht=scontent.fcfb2-1.fna&oh=00_AfDq-zWr-D-PN5dEjJNdZYcbpXWje_0iWFzm6JkmIVsuTw&oe=652260A0);
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-  .menu ul {
-    list-style-type: none;
-    padding: 7;
-    margin: 6;
-    display: flex;
-  }
 
-  .menu li {
-    margin-right: 40px;
-  }
 
-  .menu a {
-    color: rgb(255, 250, 250);
-    text-decoration: none;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 3;
+}  
 
-  .menu a:hover {
-    background-color: #f3aa57;
-  }
+.menu {
+  background-color: #480b5a;
+  width: 100%;
+}
 
-  img:hover {
-    transform: scale(1.1);
-  }
+.menu ul {
+  list-style-type: none;
+  padding: 10;
+  margin: 100;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  color: #fdfcfc;
+  text-decoration: none;
+  padding: 19px 20px;
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #09b8af;
+}
+
+.login-container {
+  background-color: #7b4ba5;
+  padding: 70px;
+  border-radius: 70px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+label {
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 13px;
+  margin: 100px 10;
+  border: none;
+  border-radius: 50px;
+}
+
+button {
+  background-color: #a05b9c;
+  color: #e7eeec;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(264, 52%, 16%);
+}
