@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
 body {
+<<<<<<< HEAD
   
   background-size: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+=======
+>>>>>>> cdba5667cbd7316f1adc4337f939ccdbde77e929
   display: flex;
   flex-direction: column;
   align-items: center;
